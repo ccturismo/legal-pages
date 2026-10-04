@@ -7,7 +7,7 @@ lastUpdated: 2026-10-04
 **Última atualização:** 4 de outubro de 2026
 
 A **C&C Turismo** ("C&C Turismo", "nós"), inscrita no CNPJ sob o nº
-**11.112.771/0001-97**, com sede em `[endereço a preencher]`, respeita a sua
+**11.112.771/0001-97**, com sede em São José dos Campos/SP, respeita a sua
 privacidade e trata dados pessoais em conformidade com a Lei nº 13.709/2018
 (**Lei Geral de Proteção de Dados – LGPD**).
 
@@ -172,7 +172,7 @@ nosso Encarregado pelo Tratamento de Dados Pessoais:
 
 - **E-mail:** privacidade@ccturismo.com.br
 - **Encarregado(a):** `[nome do encarregado a preencher]`
-- **Endereço:** `[endereço a preencher]`
+- **Endereço:** São José dos Campos/SP
 
 Você também pode apresentar reclamação à **Autoridade Nacional de Proteção de
 Dados (ANPD)**.

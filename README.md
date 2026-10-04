@@ -21,7 +21,7 @@ exibido na navbar e os itens do menu lateral são configurados em
 Os textos contêm marcadores entre colchetes que precisam ser substituídos pelos
 dados oficiais da empresa antes da publicação:
 
-- `[endereço a preencher]`
+- Endereço completo da sede (hoje consta apenas "São José dos Campos/SP")
 - `[nome do encarregado a preencher]`
 
 ## Comandos

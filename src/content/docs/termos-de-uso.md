@@ -9,7 +9,7 @@ lastUpdated: 2026-10-04
 Estes Termos de Uso ("Termos") regulam o acesso e a utilização dos aplicativos
 móveis, sites e demais canais digitais ("Plataformas") disponibilizados pela
 **C&C Turismo** ("C&C Turismo", "nós"), inscrita no CNPJ sob o nº
-**11.112.771/0001-97**, com sede em `[endereço a preencher]`.
+**11.112.771/0001-97**, com sede em São José dos Campos/SP.
 
 Ao criar uma conta, acessar ou utilizar qualquer uma das Plataformas, você
 declara que leu, compreendeu e concorda integralmente com estes Termos. Caso não
