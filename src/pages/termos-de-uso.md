@@ -1,10 +1,9 @@
 ---
 title: Termos de Uso
 description: Condições gerais de uso dos aplicativos, sites e serviços da C&C Turismo.
-lastUpdated: 2026-10-04
+atualizadoEm: 4 de outubro de 2026
+layout: ../layouts/Legal.astro
 ---
-
-**Última atualização:** 4 de outubro de 2026
 
 Estes Termos de Uso ("Termos") regulam o acesso e a utilização dos aplicativos
 móveis, sites e demais canais digitais ("Plataformas") disponibilizados pela

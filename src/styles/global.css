@@ -1,0 +1,423 @@
+/*
+ * Identidade visual da C&C Turismo.
+ *
+ * As cores da marca estão centralizadas aqui. Para aplicar a paleta oficial,
+ * troque apenas os valores deste bloco :root — nada mais no projeto precisa
+ * mudar. Os valores atuais são provisórios.
+ */
+:root {
+	/* Marca */
+	--cor-marca: #0f3d63;
+	--cor-marca-escura: #0a2b47;
+	--cor-marca-clara: #e8f0f7;
+	--cor-destaque: #e07a2f;
+
+	/* Neutros */
+	--cor-texto: #1c2733;
+	--cor-texto-suave: #55657a;
+	--cor-fundo: #ffffff;
+	--cor-fundo-alt: #f6f8fa;
+	--cor-borda: #dfe5ec;
+
+	/* Tipografia */
+	--fonte: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+	--largura-max: 68rem;
+	--largura-texto: 46rem;
+
+	/* Outros */
+	--raio: 10px;
+	--sombra: 0 1px 2px rgb(16 36 56 / 6%), 0 4px 16px rgb(16 36 56 / 6%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: var(--fonte);
+	font-size: 1rem;
+	line-height: 1.65;
+	color: var(--cor-texto);
+	background: var(--cor-fundo);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.25;
+	color: var(--cor-marca-escura);
+	text-wrap: balance;
+}
+
+a {
+	color: var(--cor-marca);
+}
+
+a:hover {
+	color: var(--cor-destaque);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 100%;
+	max-width: var(--largura-max);
+	margin-inline: auto;
+	padding-inline: 1.25rem;
+}
+
+/* Acessibilidade: pular para o conteúdo */
+.pular {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	background: var(--cor-marca);
+	color: #fff;
+	padding: 0.75rem 1rem;
+	z-index: 100;
+}
+
+.pular:focus {
+	left: 0;
+}
+
+/* ---------- Cabeçalho ---------- */
+
+.cabecalho {
+	border-bottom: 1px solid var(--cor-borda);
+	background: var(--cor-fundo);
+	position: sticky;
+	top: 0;
+	z-index: 50;
+}
+
+.cabecalho .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-wrap: wrap;
+	min-height: 4.25rem;
+	padding-block: 0.75rem;
+}
+
+.marca {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	font-weight: 700;
+	font-size: 1.15rem;
+	color: var(--cor-marca-escura);
+	text-decoration: none;
+	letter-spacing: -0.01em;
+}
+
+.marca:hover {
+	color: var(--cor-marca);
+}
+
+.marca img {
+	height: 2.25rem;
+	width: auto;
+}
+
+.menu {
+	display: flex;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	font-size: 0.925rem;
+}
+
+.menu a {
+	color: var(--cor-texto-suave);
+	text-decoration: none;
+}
+
+.menu a:hover,
+.menu a[aria-current='page'] {
+	color: var(--cor-marca);
+}
+
+.menu a[aria-current='page'] {
+	font-weight: 600;
+}
+
+/* ---------- Rodapé ---------- */
+
+.rodape {
+	margin-top: 4rem;
+	border-top: 1px solid var(--cor-borda);
+	background: var(--cor-fundo-alt);
+	padding-block: 2.5rem;
+	font-size: 0.9rem;
+	color: var(--cor-texto-suave);
+}
+
+.rodape-grade {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: space-between;
+}
+
+.rodape h2 {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--cor-texto-suave);
+	margin: 0 0 0.6rem;
+}
+
+.rodape ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.35rem;
+}
+
+.rodape a {
+	color: var(--cor-texto-suave);
+	text-decoration: none;
+}
+
+.rodape a:hover {
+	color: var(--cor-marca);
+	text-decoration: underline;
+}
+
+.rodape-base {
+	margin-top: 2rem;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--cor-borda);
+	font-size: 0.85rem;
+}
+
+/* ---------- Páginas legais ---------- */
+
+.legal {
+	padding-block: 3rem;
+}
+
+.legal-conteudo {
+	max-width: var(--largura-texto);
+}
+
+.legal h1 {
+	font-size: clamp(1.75rem, 4vw, 2.4rem);
+	margin: 0 0 0.5rem;
+}
+
+.legal .atualizacao {
+	color: var(--cor-texto-suave);
+	font-size: 0.9rem;
+	margin: 0 0 2.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid var(--cor-borda);
+}
+
+.legal h2 {
+	font-size: 1.35rem;
+	margin: 2.75rem 0 0.75rem;
+}
+
+.legal h3 {
+	font-size: 1.1rem;
+	margin: 2rem 0 0.5rem;
+}
+
+.legal li + li {
+	margin-top: 0.35rem;
+}
+
+.legal code {
+	background: var(--cor-fundo-alt);
+	border: 1px solid var(--cor-borda);
+	border-radius: 4px;
+	padding: 0.1rem 0.35rem;
+	font-size: 0.875em;
+}
+
+.legal table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5rem 0;
+	font-size: 0.9rem;
+}
+
+.legal th,
+.legal td {
+	border: 1px solid var(--cor-borda);
+	padding: 0.6rem 0.75rem;
+	text-align: left;
+	vertical-align: top;
+}
+
+.legal th {
+	background: var(--cor-fundo-alt);
+	font-weight: 600;
+	color: var(--cor-marca-escura);
+}
+
+.tabela-rolavel {
+	overflow-x: auto;
+}
+
+.legal blockquote {
+	margin: 1.75rem 0;
+	padding: 1rem 1.25rem;
+	background: var(--cor-marca-clara);
+	border-left: 4px solid var(--cor-marca);
+	border-radius: 0 var(--raio) var(--raio) 0;
+}
+
+.legal blockquote > :first-child {
+	margin-top: 0;
+}
+
+.legal blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+/* ---------- Home ---------- */
+
+.hero {
+	background: linear-gradient(160deg, var(--cor-marca-escura), var(--cor-marca));
+	color: #fff;
+	padding-block: clamp(3.5rem, 9vw, 6rem);
+}
+
+.hero h1 {
+	color: #fff;
+	font-size: clamp(2rem, 5.5vw, 3.1rem);
+	margin: 0 0 1rem;
+	max-width: 20ch;
+}
+
+.hero p {
+	font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+	max-width: 52ch;
+	margin: 0 0 2rem;
+	color: rgb(255 255 255 / 88%);
+}
+
+.acoes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.85rem;
+}
+
+.botao {
+	display: inline-block;
+	padding: 0.8rem 1.5rem;
+	border-radius: var(--raio);
+	font-weight: 600;
+	text-decoration: none;
+	border: 2px solid transparent;
+}
+
+.botao-primario {
+	background: var(--cor-destaque);
+	color: #fff;
+}
+
+.botao-primario:hover {
+	background: #fff;
+	color: var(--cor-marca-escura);
+}
+
+.botao-secundario {
+	border-color: rgb(255 255 255 / 55%);
+	color: #fff;
+}
+
+.botao-secundario:hover {
+	background: #fff;
+	color: var(--cor-marca-escura);
+}
+
+.secao {
+	padding-block: clamp(3rem, 7vw, 4.5rem);
+}
+
+.secao-alt {
+	background: var(--cor-fundo-alt);
+	border-block: 1px solid var(--cor-borda);
+}
+
+.secao > .container > h2 {
+	font-size: clamp(1.5rem, 3.5vw, 2rem);
+	margin: 0 0 0.75rem;
+}
+
+.secao-intro {
+	color: var(--cor-texto-suave);
+	max-width: 58ch;
+	margin: 0 0 2.5rem;
+}
+
+.cartoes {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	gap: 1.25rem;
+}
+
+.cartao {
+	background: var(--cor-fundo);
+	border: 1px solid var(--cor-borda);
+	border-radius: var(--raio);
+	padding: 1.5rem;
+	box-shadow: var(--sombra);
+}
+
+.cartao h3 {
+	margin: 0 0 0.5rem;
+	font-size: 1.1rem;
+}
+
+.cartao p {
+	margin: 0;
+	color: var(--cor-texto-suave);
+	font-size: 0.95rem;
+}
+
+.cartao ul {
+	margin: 0.75rem 0 0;
+	padding-left: 1.1rem;
+	color: var(--cor-texto-suave);
+	font-size: 0.95rem;
+}
+
+.contato-lista {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+/* Tabelas longas precisam rolar em telas estreitas. */
+@media (max-width: 48rem) {
+	.legal table {
+		display: block;
+		overflow-x: auto;
+		white-space: normal;
+	}
+}

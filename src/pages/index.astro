@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+
+const servicos = [
+	{
+		titulo: 'Seguros de viagem',
+		texto:
+			'Intermediamos a contratação de seguros de viagem junto a seguradoras parceiras, com cotação e acompanhamento do início ao fim.',
+		itens: ['Cotação comparativa', 'Emissão de apólice', 'Apoio em caso de sinistro'],
+	},
+	{
+		titulo: 'Serviços de turismo',
+		texto:
+			'Organizamos viagens de lazer e a negócios, cuidando do roteiro e da logística para você se preocupar apenas com o destino.',
+		itens: ['Pacotes e roteiros', 'Passagens e hospedagem', 'Passeios e traslados'],
+	},
+];
+---
+
+<Base
+	title="C&C Turismo — Seguros de viagem e serviços de turismo"
+	description="A C&C Turismo intermedia a contratação de seguros de viagem e organiza serviços de turismo: pacotes, passagens, hospedagens, passeios e traslados."
+>
+	<section class="hero">
+		<div class="container">
+			<h1>Seguros de viagem e serviços de turismo</h1>
+			<p>
+				Cuidamos da cotação do seguro e da organização da sua viagem, da primeira
+				consulta ao retorno para casa.
+			</p>
+			<div class="acoes">
+				<a class="botao botao-primario" href="#contato">Falar com a gente</a>
+				<a class="botao botao-secundario" href="#servicos">Ver serviços</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="secao" id="servicos">
+		<div class="container">
+			<h2>O que fazemos</h2>
+			<p class="secao-intro">
+				Atuamos em duas frentes complementares, para que seguro e viagem sejam
+				resolvidos no mesmo lugar.
+			</p>
+			<div class="cartoes">
+				{
+					servicos.map((s) => (
+						<article class="cartao">
+							<h3>{s.titulo}</h3>
+							<p>{s.texto}</p>
+							<ul>
+								{s.itens.map((i) => (
+									<li>{i}</li>
+								))}
+							</ul>
+						</article>
+					))
+				}
+			</div>
+		</div>
+	</section>
+
+	<section class="secao secao-alt" id="contato">
+		<div class="container">
+			<h2>Contato</h2>
+			<p class="secao-intro">
+				Escreva para a gente e retornamos com as opções para a sua viagem.
+			</p>
+			<ul class="contato-lista">
+				<li>
+					<strong>Atendimento:</strong>
+					<a href="mailto:contato@ccturismo.com.br">contato@ccturismo.com.br</a>
+				</li>
+				<li>
+					<strong>Privacidade e dados pessoais:</strong>
+					<a href="mailto:privacidade@ccturismo.com.br">privacidade@ccturismo.com.br</a>
+				</li>
+				<li><strong>Onde estamos:</strong> São José dos Campos/SP</li>
+			</ul>
+		</div>
+	</section>
+</Base>

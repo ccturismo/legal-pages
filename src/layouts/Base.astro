@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+
+const paginasLegais = [
+	{ href: '/termos-de-uso/', rotulo: 'Termos de Uso' },
+	{ href: '/privacidade/', rotulo: 'Política de Privacidade' },
+	{ href: '/cookies/', rotulo: 'Política de Cookies' },
+];
+
+// Normaliza com barra final para comparar com os href acima.
+const atual = Astro.url.pathname.replace(/\/?$/, '/');
+const ano = new Date().getFullYear();
+const canonica = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonica} />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<meta property="og:site_name" content="C&C Turismo" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={canonica} />
+		<meta property="og:locale" content="pt_BR" />
+	</head>
+	<body>
+		<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+		<header class="cabecalho">
+			<div class="container">
+				<a class="marca" href="/">C&amp;C Turismo</a>
+				<nav class="menu" aria-label="Documentos legais">
+					{
+						paginasLegais.map((p) => (
+							<a href={p.href} aria-current={atual === p.href ? 'page' : undefined}>
+								{p.rotulo}
+							</a>
+						))
+					}
+				</nav>
+			</div>
+		</header>
+
+		<main id="conteudo">
+			<slot />
+		</main>
+
+		<footer class="rodape">
+			<div class="container">
+				<div class="rodape-grade">
+					<div>
+						<h2>C&amp;C Turismo</h2>
+						<p style="margin:0;max-width:34ch">
+							Seguros de viagem e serviços de turismo.<br />
+							São José dos Campos/SP
+						</p>
+					</div>
+					<div>
+						<h2>Documentos legais</h2>
+						<ul>
+							{paginasLegais.map((p) => <li><a href={p.href}>{p.rotulo}</a></li>)}
+						</ul>
+					</div>
+					<div>
+						<h2>Contato</h2>
+						<ul>
+							<li><a href="mailto:contato@ccturismo.com.br">contato@ccturismo.com.br</a></li>
+							<li><a href="mailto:privacidade@ccturismo.com.br">privacidade@ccturismo.com.br</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="rodape-base">
+					&copy; {ano} C&amp;C Turismo &middot; CNPJ 11.112.771/0001-97
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

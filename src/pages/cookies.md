@@ -1,10 +1,9 @@
 ---
 title: Política de Cookies
 description: Quais cookies e tecnologias semelhantes a C&C Turismo utiliza em seus aplicativos e sites, e como gerenciá-los.
-lastUpdated: 2026-10-04
+atualizadoEm: 4 de outubro de 2026
+layout: ../layouts/Legal.astro
 ---
-
-**Última atualização:** 4 de outubro de 2026
 
 Esta Política de Cookies explica como a **C&C Turismo** utiliza cookies e
 tecnologias semelhantes em seus sites e aplicativos ("Plataformas"). Ela

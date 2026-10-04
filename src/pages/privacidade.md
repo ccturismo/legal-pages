@@ -1,10 +1,9 @@
 ---
 title: Política de Privacidade
 description: Como a C&C Turismo coleta e trata dados pessoais para a contratação de seguros e a oferta de serviços de turismo, conforme a LGPD.
-lastUpdated: 2026-10-04
+atualizadoEm: 4 de outubro de 2026
+layout: ../layouts/Legal.astro
 ---
-
-**Última atualização:** 4 de outubro de 2026
 
 A **C&C Turismo** ("C&C Turismo", "nós"), inscrita no CNPJ sob o nº
 **11.112.771/0001-97**, com sede em São José dos Campos/SP, respeita a sua
@@ -17,13 +16,11 @@ e quais são os seus direitos.
 
 ## 1. Para que coletamos seus dados
 
-:::note[Resumo]
-A coleta de dados em nossos aplicativos tem duas finalidades centrais: a
-**contratação de seguros** e a **oferta de serviços de turismo**. O tratamento
-se apoia na execução do contrato e no **legítimo interesse** da C&C Turismo na
-oferta e na contratação desses serviços, nos termos do art. 7º, incisos V e IX,
-da LGPD.
-:::
+> **Resumo.** A coleta de dados em nossos aplicativos tem duas finalidades
+> centrais: a **contratação de seguros** e a **oferta de serviços de turismo**.
+> O tratamento se apoia na execução do contrato e no **legítimo interesse** da
+> C&C Turismo na oferta e na contratação desses serviços, nos termos do art. 7º,
+> incisos V e IX, da LGPD.
 
 Tratamos seus dados pessoais para:
 
