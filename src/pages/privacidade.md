@@ -1,6 +1,6 @@
 ---
 title: Política de Privacidade
-description: Como a C&C Turismo coleta e trata dados pessoais para a contratação de seguros e a oferta de serviços de turismo, conforme a LGPD.
+description: Como a C&C Turismo coleta e trata dados pessoais para organizar suas excursões, contratar o seguro dos passageiros e ofertar viagens, conforme a LGPD.
 atualizadoEm: 4 de outubro de 2026
 layout: ../layouts/Legal.astro
 ---
@@ -17,73 +17,85 @@ e quais são os seus direitos.
 ## 1. Para que coletamos seus dados
 
 > **Resumo.** A coleta de dados em nossos aplicativos tem duas finalidades
-> centrais: a **contratação de seguros** e a **oferta de serviços de turismo**.
-> O tratamento se apoia na execução do contrato e no **legítimo interesse** da
-> C&C Turismo na oferta e na contratação desses serviços, nos termos do art. 7º,
-> incisos V e IX, da LGPD.
+> centrais: a **contratação do seguro que cobre os passageiros** das nossas
+> excursões e a **oferta de serviços de turismo**. O tratamento se apoia na
+> execução do contrato de viagem e no **legítimo interesse** da C&C Turismo na
+> oferta e na contratação desses serviços, nos termos do art. 7º, incisos V e
+> IX, da LGPD.
 
-Tratamos seus dados pessoais para:
+A C&C Turismo organiza excursões e viagens em grupo, realizadas
+predominantemente em ônibus fretado, com destinos no Brasil e saídas, em regra,
+de São José dos Campos e região. Tratamos seus dados pessoais para:
 
-- **cotar, emitir e administrar seguros** de viagem e demais seguros
-  relacionados a turismo, inclusive o envio dos dados necessários às seguradoras
-  parceiras para aceitação do risco, emissão de apólice e atendimento a
-  sinistros;
-- **ofertar, vender e executar serviços de turismo**, como pacotes, passagens,
-  hospedagens, passeios e traslados, incluindo a comunicação com fornecedores
-  para a efetivação das reservas;
-- **apresentar ofertas, condições comerciais e recomendações** de seguros e
-  serviços de turismo adequados ao seu perfil de viagem;
-- **prestar atendimento e suporte**, responder solicitações e acompanhar
-  contratações;
-- **prevenir fraudes e garantir a segurança** das Plataformas e das transações;
+- **organizar e executar a viagem contratada** — inscrição, lista de
+  passageiros, ponto de embarque, acomodação, alimentação e passeios;
+- **contratar o seguro que cobre os passageiros do grupo**, enviando à
+  seguradora os dados necessários à inclusão de cada viajante na apólice e ao
+  atendimento de eventuais sinistros;
+- **cumprir obrigações do transporte rodoviário**, como a lista de passageiros
+  exigida da empresa de fretamento e das autoridades de trânsito e turismo;
+- **ofertar novas excursões e serviços de turismo**, inclusive roteiros
+  compatíveis com as viagens que você já fez ou demonstrou interesse;
+- **prestar atendimento e suporte**, responder solicitações e acompanhar a
+  viagem;
+- **prevenir fraudes e garantir a segurança** das Plataformas e dos
+  pagamentos;
 - **cumprir obrigações legais e regulatórias**, inclusive fiscais, contábeis e
-  as decorrentes da regulação do setor de seguros e de turismo.
+  as decorrentes da regulação do setor de turismo.
+
+> A C&C Turismo **não vende nem intermedia seguros**. O seguro é contratado por
+> nós, como item da viagem, para cobrir os passageiros do grupo.
 
 ## 2. Dados que coletamos
 
 | Categoria | Exemplos | Origem |
 | --- | --- | --- |
-| Dados cadastrais | Nome, CPF, RG ou passaporte, data de nascimento, estado civil, nacionalidade | Fornecidos por você |
-| Dados de contato | E-mail, telefone, endereço | Fornecidos por você |
-| Dados de viagem | Destino, datas, roteiro, número de viajantes, dados de acompanhantes | Fornecidos por você |
-| Dados de contratação | Produtos cotados e contratados, apólices, vouchers, histórico de compras | Gerados no uso das Plataformas |
-| Dados de pagamento | Meio de pagamento, dados de faturamento, confirmação de transação | Fornecidos por você e por processadores de pagamento |
+| Dados cadastrais | Nome, CPF, RG, data de nascimento | Fornecidos por você |
+| Dados de contato | E-mail, telefone, endereço, contato de emergência | Fornecidos por você |
+| Dados da viagem | Roteiro, datas, ponto de embarque, poltrona, acomodação, acompanhantes | Fornecidos por você e gerados na reserva |
+| Dados de contratação | Viagens contratadas, comprovantes, vouchers, histórico de inscrições | Gerados no uso das Plataformas |
+| Dados de pagamento | Meio de pagamento, dados de faturamento, confirmação da transação | Fornecidos por você e por processadores de pagamento |
 | Dados de uso | Endereço IP, identificador do dispositivo, versão do app, telas acessadas, registros de acesso | Coletados automaticamente |
 
-**Dados pessoais sensíveis.** Determinados seguros podem exigir informações de
-saúde (por exemplo, condições preexistentes relevantes à cobertura). Esses dados
-são tratados apenas quando estritamente necessários ao produto contratado, com
-base no **consentimento específico e destacado** ou na garantia da tutela da
-saúde em procedimento realizado por profissionais de saúde, nos termos do art.
-11 da LGPD, e são compartilhados somente com a seguradora responsável.
+**Dados pessoais sensíveis.** Podemos solicitar informações de saúde quando
+forem necessárias à sua segurança na viagem — restrições de mobilidade,
+necessidades de acessibilidade no ônibus ou nos passeios, alergias alimentares
+e condições relevantes em caso de emergência — ou quando a seguradora as exigir
+para a cobertura. Esses dados são tratados apenas na medida do necessário, com
+base no **consentimento específico e destacado** ou na proteção da vida e da
+incolumidade física, nos termos do art. 11 da LGPD, e compartilhados somente
+com quem precisa deles: a seguradora, o guia responsável pelo grupo e, em
+emergência, o serviço de atendimento médico.
 
 **Crianças e adolescentes.** Dados de menores são coletados apenas quando
-informados por pais ou responsáveis legais, para inclusão em viagens ou
-apólices, sempre em seu melhor interesse.
+informados por pais ou responsáveis legais, para inscrição na viagem e
+inclusão na apólice, sempre em seu melhor interesse.
 
 ## 3. Bases legais
 
 | Finalidade | Base legal (LGPD) |
 | --- | --- |
-| Cotação, emissão e gestão de seguros contratados por você | Execução de contrato ou de procedimentos preliminares — art. 7º, V |
-| Venda e execução de serviços de turismo | Execução de contrato ou de procedimentos preliminares — art. 7º, V |
-| Oferta de seguros e de serviços de turismo, recomendações e comunicações comerciais a clientes e interessados | **Legítimo interesse** — art. 7º, IX |
-| Prevenção a fraudes e segurança das transações | Legítimo interesse e proteção ao crédito — art. 7º, IX e X |
+| Organização e execução da viagem contratada | Execução de contrato ou de procedimentos preliminares — art. 7º, V |
+| Contratação do seguro que cobre os passageiros do grupo | Execução de contrato — art. 7º, V |
+| Lista de passageiros e demais exigências do transporte rodoviário | Cumprimento de obrigação legal — art. 7º, II |
+| Oferta de novas excursões, recomendações e comunicações comerciais a clientes e interessados | **Legítimo interesse** — art. 7º, IX |
+| Prevenção a fraudes e segurança das transações | Legítimo interesse — art. 7º, IX |
 | Obrigações fiscais, contábeis e regulatórias | Cumprimento de obrigação legal — art. 7º, II |
 | Registros de acesso a aplicações de internet | Cumprimento de obrigação legal — art. 7º, II (Marco Civil da Internet) |
-| Dados de saúde para seguros que os exijam | Consentimento específico ou tutela da saúde — art. 11 |
+| Dados de saúde necessários à segurança na viagem ou exigidos pela seguradora | Consentimento específico ou proteção da vida e da incolumidade física — art. 11, I e II, "e" |
 | Exercício de direitos em processo judicial, administrativo ou arbitral | Art. 7º, VI |
 
 ### Sobre o legítimo interesse
 
 A C&C Turismo utiliza o **legítimo interesse** como base legal para oferecer
-seguros e serviços de turismo a clientes e a pessoas que demonstraram interesse
-em nossos produtos. Entendemos que essa atividade:
+suas excursões e serviços de turismo a clientes e a pessoas que demonstraram
+interesse nas viagens. Entendemos que essa atividade:
 
-- é **legítima e esperada**: quem busca uma viagem ou uma cotação de seguro
-  espera receber as ofertas e condições correspondentes;
-- é **necessária** à oferta e à contratação dos serviços, não havendo meio menos
-  invasivo de apresentar condições adequadas ao perfil de viagem;
+- é **legítima e esperada**: quem já viajou com o grupo ou pediu informações
+  sobre um roteiro espera receber as próximas saídas e condições;
+- é **necessária** à oferta dos serviços, não havendo meio menos invasivo de
+  apresentar roteiros compatíveis com o perfil de viagem e o ponto de embarque
+  de cada pessoa;
 - preserva seus **direitos e liberdades fundamentais**, pois utilizamos apenas
   os dados necessários, não tratamos dados sensíveis com essa base legal e
   mantemos mecanismos simples de oposição e de descadastramento.
@@ -97,15 +109,19 @@ correspondente, pelos canais indicados na seção 9.
 Compartilhamos dados pessoais apenas na medida necessária às finalidades acima,
 com:
 
-- **seguradoras e corretoras parceiras**, para cotação, emissão de apólices e
-  atendimento a sinistros;
-- **fornecedores de turismo**, como companhias aéreas, hotéis, operadoras,
-  locadoras e receptivos, para efetivação das reservas;
+- a **seguradora** que cobre os passageiros da viagem, para inclusão na apólice
+  e atendimento de sinistros;
+- as **empresas de fretamento e os motoristas**, para a lista de passageiros e
+  o cumprimento das exigências do transporte;
+- **hotéis, pousadas, restaurantes, atrativos turísticos e receptivos locais**,
+  para efetivar as reservas do roteiro;
+- **guias e acompanhantes de grupo**, no que for necessário à condução da
+  viagem e à segurança dos passageiros;
 - **processadores de pagamento e instituições financeiras**, para a liquidação
   das transações;
 - **prestadores de serviços de tecnologia**, como hospedagem em nuvem,
-  comunicação, análise de uso e atendimento, que atuam como operadores sob
-  contrato e nossas instruções;
+  comunicação e atendimento, que atuam como operadores sob contrato e nossas
+  instruções;
 - **autoridades públicas e órgãos reguladores**, quando exigido por lei, ordem
   judicial ou requisição legítima.
 
@@ -113,23 +129,28 @@ Não vendemos dados pessoais.
 
 ## 5. Transferência internacional
 
-Alguns fornecedores de turismo, seguradoras e provedores de tecnologia estão
-localizados no exterior. Nesses casos, a transferência internacional ocorre nas
-hipóteses do art. 33 da LGPD — notadamente quando necessária à execução do
-contrato de viagem ou de seguro — e com salvaguardas contratuais adequadas.
+Nossas viagens têm destinos no Brasil, e os fornecedores do roteiro — ônibus,
+hospedagem, alimentação e passeios — são nacionais. Pode haver transferência
+internacional apenas em relação a **provedores de tecnologia** com servidores
+no exterior, como hospedagem em nuvem e ferramentas de comunicação. Nesses
+casos, a transferência ocorre nas hipóteses do art. 33 da LGPD e com
+salvaguardas contratuais adequadas.
 
 ## 6. Por quanto tempo guardamos
 
 Mantemos os dados pelo tempo necessário às finalidades que motivaram a coleta,
 observando:
 
-- **dados de contratação (seguros e turismo):** durante a relação contratual e
-  pelo prazo prescricional aplicável após o seu término;
+- **dados da viagem contratada:** durante a relação contratual e pelo prazo
+  prescricional aplicável após o seu término;
 - **documentos fiscais e contábeis:** pelos prazos exigidos pela legislação;
+- **listas de passageiros:** pelo prazo exigido da operação de fretamento;
 - **registros de acesso a aplicações de internet:** no mínimo 6 meses, conforme
   o art. 15 do Marco Civil da Internet;
 - **dados usados para oferta com base em legítimo interesse:** até a sua
-  oposição ou até que deixem de ser úteis à finalidade.
+  oposição ou até que deixem de ser úteis à finalidade;
+- **dados de saúde:** apenas enquanto durar a viagem e o prazo de eventual
+  sinistro, salvo obrigação legal de guarda.
 
 Encerrados os prazos, os dados são eliminados ou anonimizados.
 

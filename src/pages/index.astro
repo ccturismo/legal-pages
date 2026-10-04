@@ -1,56 +1,62 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const servicos = [
+const diferenciais = [
 	{
-		titulo: 'Seguros de viagem',
+		titulo: 'Viagens em grupo',
 		texto:
-			'Intermediamos a contratação de seguros de viagem junto a seguradoras parceiras, com cotação e acompanhamento do início ao fim.',
-		itens: ['Cotação comparativa', 'Emissão de apólice', 'Apoio em caso de sinistro'],
+			'Excursões com roteiro pronto, guia acompanhando e um grupo para fazer a viagem render.',
+		itens: ['Roteiro e passeios definidos', 'Guia durante toda a viagem', 'Hospedagem e refeições combinadas'],
 	},
 	{
-		titulo: 'Serviços de turismo',
+		titulo: 'Saída de São José dos Campos',
 		texto:
-			'Organizamos viagens de lazer e a negócios, cuidando do roteiro e da logística para você se preocupar apenas com o destino.',
-		itens: ['Pacotes e roteiros', 'Passagens e hospedagem', 'Passeios e traslados'],
+			'Os embarques saem da cidade e da região, sem conexão, sem aeroporto e sem deslocamento até a capital.',
+		itens: ['Ônibus fretado', 'Pontos de embarque na região', 'Ida e volta no mesmo grupo'],
+	},
+	{
+		titulo: 'Destinos pelo Brasil',
+		texto:
+			'Praias, serras, cidades históricas, santuários e parques — destinos nacionais ao alcance da estrada.',
+		itens: ['Bate-volta e viagens de vários dias', 'Datas ao longo do ano', 'Grupos de todas as idades'],
 	},
 ];
 ---
 
 <Base
-	title="C&C Turismo — Seguros de viagem e serviços de turismo"
-	description="A C&C Turismo intermedia a contratação de seguros de viagem e organiza serviços de turismo: pacotes, passagens, hospedagens, passeios e traslados."
+	title="C&C Turismo — Excursões e viagens em grupo saindo de São José dos Campos"
+	description="A C&C Turismo organiza excursões e viagens em grupo de ônibus para destinos no Brasil, com saídas de São José dos Campos e região."
 >
 	<section class="hero">
 		<div class="container">
 			<span class="arco" aria-hidden="true"></span>
-			<h1 class="display">Seguros de viagem e serviços de turismo</h1>
+			<h1 class="display">Excursões e viagens em grupo pelo Brasil</h1>
 			<p class="lead">
-				Cuidamos da cotação do seguro e da organização da sua viagem, da primeira
-				consulta ao retorno para casa.
+				Saímos de São José dos Campos de ônibus, com roteiro pronto, guia
+				acompanhando e o seguro dos passageiros já incluso.
 			</p>
 			<div class="acoes">
 				<a class="botao botao-primario" href="#contato">Falar com a gente</a>
-				<a class="botao botao-secundario" href="#servicos">Ver serviços</a>
+				<a class="botao botao-secundario" href="#viagens">Como funciona</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="secao" id="servicos">
+	<section class="secao" id="viagens">
 		<div class="container">
-			<h2>O que fazemos</h2>
+			<h2>Como são nossas viagens</h2>
 			<p class="secao-intro">
-				Atuamos em duas frentes complementares, para que seguro e viagem sejam
-				resolvidos no mesmo lugar.
+				A gente cuida do roteiro, do transporte e da logística. Você escolhe o
+				destino e a data.
 			</p>
 			<div class="cartoes">
 				{
-					servicos.map((s) => (
+					diferenciais.map((d) => (
 						<article class="cartao">
-							<h3>{s.titulo}</h3>
-							<p>{s.texto}</p>
+							<h3>{d.titulo}</h3>
+							<p>{d.texto}</p>
 							<ul>
-								{s.itens.map((i) => (
+								{d.itens.map((i) => (
 									<li>{i}</li>
 								))}
 							</ul>
@@ -65,7 +71,8 @@ const servicos = [
 		<div class="container">
 			<h2>Contato</h2>
 			<p class="secao-intro">
-				Escreva para a gente e retornamos com as opções para a sua viagem.
+				Escreva para a gente e retornamos com os próximos roteiros, datas e
+				pontos de embarque.
 			</p>
 			<ul class="contato-lista">
 				<li>

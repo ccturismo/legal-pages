@@ -20,7 +20,7 @@ tecnologias.
 ## 2. Para que utilizamos
 
 Utilizamos cookies para manter sua sessão ativa, lembrar preferências, medir o
-desempenho das Plataformas e **apresentar ofertas de seguros e de serviços de
+desempenho das Plataformas e **apresentar ofertas de excursões e serviços de
 turismo** adequadas ao seu interesse de viagem — finalidade que se apoia no
 **legítimo interesse** da C&C Turismo na oferta e na contratação desses
 serviços, conforme detalhado na Política de Privacidade.
@@ -29,10 +29,10 @@ serviços, conforme detalhado na Política de Privacidade.
 
 | Tipo | Finalidade | Base legal | Pode ser desativado? |
 | --- | --- | --- | --- |
-| **Necessários** | Autenticação, segurança, manutenção da sessão, carrinho de cotação, prevenção a fraudes | Execução de contrato e legítimo interesse | Não — sem eles as Plataformas não funcionam |
-| **De preferências** | Lembrar idioma, moeda, destino pesquisado e demais escolhas | Legítimo interesse | Sim |
+| **Necessários** | Autenticação, segurança, manutenção da sessão, reserva em andamento, prevenção a fraudes | Execução de contrato e legítimo interesse | Não — sem eles as Plataformas não funcionam |
+| **De preferências** | Lembrar ponto de embarque, destino pesquisado e demais escolhas | Legítimo interesse | Sim |
 | **Analíticos** | Medir uso, desempenho e erros para melhorar as Plataformas | Legítimo interesse (dados agregados) ou consentimento | Sim |
-| **De publicidade e oferta** | Apresentar e mensurar ofertas de seguros e de serviços de turismo, dentro e fora das Plataformas | Consentimento, quando envolver terceiros e perfilamento publicitário | Sim |
+| **De publicidade e oferta** | Apresentar e mensurar ofertas de excursões e serviços de turismo, dentro e fora das Plataformas | Consentimento, quando envolver terceiros e perfilamento publicitário | Sim |
 
 ## 4. Cookies de terceiros
 
@@ -56,7 +56,7 @@ Você pode gerenciar cookies de várias formas:
   limitar o rastreamento de anúncios e redefinir o identificador de publicidade
   do dispositivo.
 
-Bloquear cookies necessários pode impedir o login, a cotação de seguros e a
+Bloquear cookies necessários pode impedir o login, a reserva de uma viagem e a
 conclusão de contratações.
 
 ## 6. Por quanto tempo permanecem

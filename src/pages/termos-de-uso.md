@@ -16,21 +16,30 @@ concorde, não utilize as Plataformas.
 
 ## 1. Objeto
 
-As Plataformas da C&C Turismo têm por finalidade:
+A C&C Turismo organiza e vende **excursões e viagens em grupo**, realizadas
+predominantemente em ônibus fretado, com destinos no Brasil e saídas, em regra,
+de São José dos Campos e região.
 
-- apresentar, cotar e viabilizar a **contratação de seguros** relacionados a
-  viagens e turismo, na qualidade de intermediária entre você e as seguradoras
-  parceiras;
-- apresentar e comercializar **serviços de turismo**, tais como pacotes,
-  passagens, hospedagens, passeios, traslados e serviços correlatos;
-- comunicar ofertas, condições comerciais e informações sobre produtos e
-  serviços de turismo e seguros;
-- prestar atendimento, suporte e acompanhamento de contratações realizadas.
+As Plataformas têm por finalidade:
 
-A C&C Turismo atua como intermediária na contratação de seguros. A cobertura,
-a aceitação do risco, a análise e o pagamento de sinistros são de
-responsabilidade exclusiva da seguradora emissora da apólice, conforme as
-condições gerais do produto contratado.
+- apresentar roteiros, datas, pontos de embarque, valores e condições das
+  viagens;
+- viabilizar reservas, inscrições e pagamentos;
+- comunicar ofertas de excursões e informações sobre as viagens contratadas;
+- prestar atendimento, suporte e acompanhamento antes, durante e depois da
+  viagem.
+
+### Seguro dos passageiros
+
+Para as viagens que organiza, a C&C Turismo **contrata, por conta própria e
+junto a uma seguradora, a cobertura dos passageiros do grupo**. O seguro é um
+item da viagem, não um produto vendido a você: a C&C Turismo é a contratante da
+apólice e você figura como segurado ou beneficiário.
+
+A C&C Turismo **não comercializa nem intermedia a venda de seguros**. A
+cobertura, a análise e o pagamento de eventuais sinistros são de
+responsabilidade exclusiva da seguradora, conforme as condições gerais da
+apólice contratada, cujo resumo é informado antes do embarque.
 
 ## 2. Cadastro e conta de acesso
 
@@ -47,55 +56,72 @@ destes Termos.
 
 2.4. O cadastro é destinado a pessoas maiores de 18 anos ou legalmente
 representadas. Dados de menores de idade somente podem ser informados por seus
-pais ou responsáveis legais, para fins de inclusão em viagens ou apólices.
+pais ou responsáveis legais, que respondem pela inscrição e, quando o menor
+viajar desacompanhado deles, pela autorização de viagem exigida por lei.
 
-## 3. Cotação, contratação e pagamento
+## 3. Reserva, pagamento e embarque
 
-3.1. As cotações apresentadas são estimativas sujeitas à confirmação de
-disponibilidade, à análise da seguradora ou do fornecedor e às regras tarifárias
-aplicáveis.
+3.1. Os valores divulgados referem-se ao roteiro, às datas e às condições
+descritas em cada viagem, e podem variar conforme a data de inscrição, o ponto
+de embarque, o tipo de acomodação e os serviços incluídos.
 
-3.2. A contratação somente se considera concluída após a confirmação do
-pagamento e a emissão do respectivo bilhete, voucher, apólice ou certificado.
+3.2. A reserva somente se considera confirmada após o pagamento nas condições
+acordadas e a emissão do comprovante de inscrição ou voucher.
 
-3.3. Preços, impostos, taxas e condições de pagamento são informados antes da
-conclusão da compra e podem variar conforme data, destino, fornecedor e perfil
-da viagem.
+3.3. A realização da viagem pode depender de um **número mínimo de passageiros**,
+informado na divulgação do roteiro. Não atingido esse número, a C&C Turismo pode
+cancelar ou remarcar a saída, comunicando os inscritos com antecedência e
+restituindo integralmente os valores pagos, caso você não aceite a nova data.
 
-3.4. Cancelamentos, remarcações e reembolsos seguem as regras do fornecedor ou
-da seguradora responsável pelo produto contratado, informadas no momento da
-contratação, observado o direito de arrependimento previsto no art. 49 do Código
-de Defesa do Consumidor para compras realizadas fora do estabelecimento
-comercial.
+3.4. É sua responsabilidade comparecer ao ponto de embarque no horário
+informado, portando documento de identificação original com foto. O ônibus não
+aguarda passageiros atrasados, e a perda do embarque por atraso não gera direito
+a reembolso.
 
-## 4. Responsabilidades do usuário
+3.5. Cancelamentos, remarcações e reembolsos solicitados por você seguem as
+regras informadas no momento da contratação, que variam conforme a antecedência
+do pedido e os custos já comprometidos com fornecedores. Fica observado o
+direito de arrependimento previsto no art. 49 do Código de Defesa do Consumidor
+para contratações feitas fora do estabelecimento comercial.
 
-Ao utilizar as Plataformas, você se compromete a:
+3.6. Roteiros podem sofrer ajustes por motivo de força maior, condições
+climáticas, de tráfego, de segurança ou por determinação de autoridades. Nesses
+casos, a C&C Turismo busca alternativa equivalente e comunica os passageiros.
 
-- fornecer informações verdadeiras e mantê-las atualizadas, inclusive dados
-  relevantes à aceitação do risco pela seguradora;
-- utilizar as Plataformas de forma lícita, sem violar direitos de terceiros;
-- não tentar acessar áreas restritas, burlar medidas de segurança, realizar
-  engenharia reversa ou extrair dados de forma automatizada;
-- conferir documentos, vistos, exigências sanitárias e demais requisitos do
-  destino, cuja obtenção é de sua responsabilidade.
+## 4. Responsabilidades do passageiro
 
-Informações incorretas ou omitidas podem resultar na recusa de cobertura
-securitária ou na impossibilidade de prestação do serviço de turismo
-contratado.
+Ao contratar uma viagem e utilizar as Plataformas, você se compromete a:
+
+- fornecer informações verdadeiras e mantê-las atualizadas, inclusive as
+  necessárias à sua inclusão na apólice da viagem;
+- informar, quando solicitado, condições de saúde ou necessidades de
+  acessibilidade relevantes para a sua segurança durante o trajeto e os
+  passeios;
+- portar os documentos exigidos e cumprir os horários do roteiro;
+- respeitar as regras de convivência do grupo, as orientações do guia e as
+  normas de segurança do transporte;
+- utilizar as Plataformas de forma lícita, sem violar direitos de terceiros, e
+  não tentar acessar áreas restritas, burlar medidas de segurança ou extrair
+  dados de forma automatizada.
+
+Informações incorretas ou omitidas podem impedir a sua inclusão na cobertura
+securitária da viagem ou inviabilizar a prestação dos serviços contratados.
 
 ## 5. Responsabilidades da C&C Turismo
 
-5.1. A C&C Turismo empreende esforços razoáveis para manter as Plataformas
+5.1. A C&C Turismo responde pela organização da viagem que vende e pela escolha
+diligente de seus fornecedores.
+
+5.2. Serviços executados por terceiros — transporte, hospedagem, alimentação,
+atrativos turísticos e a cobertura securitária — são prestados por cada
+fornecedor, nos termos das respectivas condições contratuais.
+
+5.3. A C&C Turismo empreende esforços razoáveis para manter as Plataformas
 disponíveis, seguras e com informações corretas, mas não garante funcionamento
 ininterrupto ou livre de falhas, podendo haver interrupções para manutenção ou
 por fatores alheios ao seu controle.
 
-5.2. A C&C Turismo não responde por serviços prestados diretamente por
-seguradoras, companhias aéreas, hotéis, operadoras e demais fornecedores, cuja
-execução é de responsabilidade de cada um deles.
-
-5.3. Nada nestes Termos afasta as responsabilidades legais da C&C Turismo
+5.4. Nada nestes Termos afasta as responsabilidades legais da C&C Turismo
 perante o Código de Defesa do Consumidor.
 
 ## 6. Propriedade intelectual
@@ -107,9 +133,10 @@ reprodução, distribuição ou modificação sem autorização prévia e por es
 ## 7. Privacidade e proteção de dados
 
 O tratamento de dados pessoais realizado nas Plataformas — incluindo a coleta
-destinada à **contratação de seguros** e à **oferta de serviços de turismo**,
-fundamentada na execução de contrato e no **legítimo interesse** da C&C Turismo
-— está descrito na [Política de Privacidade](/privacidade/) e na
+destinada à **contratação do seguro que cobre os passageiros** e à **oferta de
+serviços de turismo**, fundamentada na execução de contrato e no **legítimo
+interesse** da C&C Turismo — está descrito na
+[Política de Privacidade](/privacidade/) e na
 [Política de Cookies](/cookies/), que integram estes Termos.
 
 ## 8. Alterações dos Termos
