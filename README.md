@@ -23,7 +23,6 @@ dados oficiais da empresa antes da publicação:
 
 - `[endereço a preencher]`
 - `[nome do encarregado a preencher]`
-- E-mails de contato (`contato@ccturismo.com.br`, `privacidade@ccturismo.com.br`)
 
 ## Comandos
 
