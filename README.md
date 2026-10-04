@@ -34,18 +34,46 @@ no frontmatter. O nome do arquivo define a URL.
 
 ## Identidade visual
 
-As cores da marca estão centralizadas no bloco `:root` de
-`src/styles/global.css`. Para aplicar a paleta oficial, troque os valores
-daquele bloco — o restante do projeto usa as variáveis. **Os valores atuais são
-provisórios**, à espera do material da marca.
+O site segue o **Design System v1** da C&C Turismo
+(`brand/CC-Turismo-Design-System.pdf`). Os tokens de cor estão em
+`src/styles/global.css`, no bloco `:root`, com o tema escuro logo abaixo —
+ambos transcritos da tabela de tokens do documento.
 
-Para incluir o logo: coloque o arquivo em `public/` e troque o texto dentro de
-`<a class="marca">` em `src/layouts/Base.astro` por uma `<img>`. O CSS de
-`.marca img` já cuida do dimensionamento.
+As cinco cores oficiais: azul `#186AB4`, verde `#01A54F`, azul claro `#9FC5DA`,
+branco `#FFFFFF` e texto escuro `#12324A`. Regras aplicadas:
+
+- proporção branco 60% / azul 25% / verde 10% — por isso o hero é claro
+- verde nunca em texto corrido sobre branco (3,2:1); texto verde usa
+  `--verde-texto` `#00723A`
+- azul claro é decorativo, nunca cor de texto
+- logo com no mínimo 120px de largura, só sobre fundo claro
+
+### Fontes
+
+Montserrat (títulos) e Nunito Sans (texto), conforme o design system, mas
+**auto-hospedadas via `@fontsource`** em vez do `<link>` do Google Fonts que
+consta no PDF. O motivo: o `<link>` faz o navegador do visitante requisitar
+`fonts.googleapis.com`, o que enviaria o IP dele a um terceiro e teria de ser
+declarado na Política de Cookies. Num site cujo conteúdo é justamente a
+política de privacidade, não compensa. O resultado visual é o mesmo e o site
+não faz nenhuma requisição externa.
+
+### Logo
+
+`src/assets/cc-turismo-logo.png` — versão de fundo branco, já aparada e
+otimizada pelo Astro (519 KB no fonte, ~6 KB entregues em WebP). Os originais
+recebidos ficam em `brand/`.
+
+Como o arquivo tem fundo branco, o logo só aparece sobre superfícies claras. No
+tema escuro ele recebe padding e cantos arredondados, virando a "placa branca"
+que o design system exige sobre fundos escuros.
 
 ## Pendências de preenchimento
 
-- Logo e paleta oficial da marca
+- Versão vetorial (SVG) e monocromática do logo — o próprio design system as
+  lista como pendentes junto ao fornecedor
+- Marca quadrada para favicon: hoje é o logo horizontal encaixado num quadrado,
+  o que fica apertado em 32px
 - Endereço completo da sede (hoje consta apenas "São José dos Campos/SP")
 - `[nome do encarregado a preencher]` em `src/pages/privacidade.md`
 - Telefone de atendimento, se for divulgado no site

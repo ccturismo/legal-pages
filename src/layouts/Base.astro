@@ -1,5 +1,15 @@
 ---
+import { Image } from 'astro:assets';
+
+// Fontes da marca, auto-hospedadas. Ver nota no README sobre o porquê de não
+// usarmos o <link> do Google Fonts que consta no design system.
+import '@fontsource/montserrat/600.css';
+import '@fontsource/montserrat/700.css';
+import '@fontsource/nunito-sans/400.css';
+import '@fontsource/nunito-sans/700.css';
 import '../styles/global.css';
+
+import logo from '../assets/cc-turismo-logo.png';
 
 interface Props {
 	title: string;
@@ -10,11 +20,10 @@ const { title, description } = Astro.props;
 
 const paginasLegais = [
 	{ href: '/termos-de-uso/', rotulo: 'Termos de Uso' },
-	{ href: '/privacidade/', rotulo: 'Política de Privacidade' },
-	{ href: '/cookies/', rotulo: 'Política de Cookies' },
+	{ href: '/privacidade/', rotulo: 'Privacidade' },
+	{ href: '/cookies/', rotulo: 'Cookies' },
 ];
 
-// Normaliza com barra final para comparar com os href acima.
 const atual = Astro.url.pathname.replace(/\/?$/, '/');
 const ano = new Date().getFullYear();
 const canonica = new URL(Astro.url.pathname, Astro.site);
@@ -28,7 +37,9 @@ const canonica = new URL(Astro.url.pathname, Astro.site);
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonica} />
-		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<link rel="icon" href="/favicon.png" type="image/png" />
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<meta name="theme-color" content="#186AB4" />
 		<meta property="og:site_name" content="C&C Turismo" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
@@ -41,7 +52,9 @@ const canonica = new URL(Astro.url.pathname, Astro.site);
 
 		<header class="cabecalho">
 			<div class="container">
-				<a class="marca" href="/">C&amp;C Turismo</a>
+				<a class="marca" href="/" aria-label="C&amp;C Turismo — página inicial">
+					<Image src={logo} alt="C&C Turismo" width={264} densities={[1, 2]} loading="eager" />
+				</a>
 				<nav class="menu" aria-label="Documentos legais">
 					{
 						paginasLegais.map((p) => (
@@ -63,7 +76,7 @@ const canonica = new URL(Astro.url.pathname, Astro.site);
 				<div class="rodape-grade">
 					<div>
 						<h2>C&amp;C Turismo</h2>
-						<p style="margin:0;max-width:34ch">
+						<p>
 							Seguros de viagem e serviços de turismo.<br />
 							São José dos Campos/SP
 						</p>
@@ -71,7 +84,9 @@ const canonica = new URL(Astro.url.pathname, Astro.site);
 					<div>
 						<h2>Documentos legais</h2>
 						<ul>
-							{paginasLegais.map((p) => <li><a href={p.href}>{p.rotulo}</a></li>)}
+							<li><a href="/termos-de-uso/">Termos de Uso</a></li>
+							<li><a href="/privacidade/">Política de Privacidade</a></li>
+							<li><a href="/cookies/">Política de Cookies</a></li>
 						</ul>
 					</div>
 					<div>
