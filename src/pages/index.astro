@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
+import { destinos } from '../data/destinos';
 
 const diferenciais = [
 	{
@@ -15,9 +17,9 @@ const diferenciais = [
 		itens: ['Ônibus fretado', 'Pontos de embarque na região', 'Ida e volta no mesmo grupo'],
 	},
 	{
-		titulo: 'Destinos pelo Brasil',
+		titulo: 'Destinos ao alcance da estrada',
 		texto:
-			'Praias, serras, cidades históricas, santuários e parques — destinos nacionais ao alcance da estrada.',
+			'Praias, serras, cidades históricas, santuários e parques pelo Brasil — e Ciudad del Este, no Paraguai.',
 		itens: ['Bate-volta e viagens de vários dias', 'Datas ao longo do ano', 'Grupos de todas as idades'],
 	},
 ];
@@ -37,7 +39,7 @@ const diferenciais = [
 			</p>
 			<div class="acoes">
 				<a class="botao botao-primario" href="#contato">Falar com a gente</a>
-				<a class="botao botao-secundario" href="#viagens">Como funciona</a>
+				<a class="botao botao-secundario" href="#destinos">Ver destinos</a>
 			</div>
 		</div>
 	</section>
@@ -67,7 +69,39 @@ const diferenciais = [
 		</div>
 	</section>
 
-	<section class="secao secao-alt" id="contato">
+	<section class="secao secao-alt" id="destinos">
+		<div class="container">
+			<h2>Para onde a gente vai</h2>
+			<p class="secao-intro">
+				Destinos que a C&C Turismo atende, do bate-volta à viagem de vários
+				dias. As datas de cada saída mudam ao longo do ano — fale com a gente
+				para saber as próximas.
+			</p>
+			<ul class="destinos">
+				{
+					destinos.map((d) => (
+						<li class="destino">
+							<Image
+								src={d.imagem}
+								alt={`${d.nome} — ${d.descricao}`}
+								width={640}
+								widths={[320, 640]}
+								sizes="(max-width: 48rem) 90vw, 320px"
+								loading="lazy"
+							/>
+							<div class="destino-texto">
+								<span class="destino-uf">{d.uf}</span>
+								<h3>{d.nome}</h3>
+								<p>{d.descricao}</p>
+							</div>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</section>
+
+	<section class="secao" id="contato">
 		<div class="container">
 			<h2>Contato</h2>
 			<p class="secao-intro">

@@ -17,8 +17,9 @@ concorde, não utilize as Plataformas.
 ## 1. Objeto
 
 A C&C Turismo organiza e vende **excursões e viagens em grupo**, realizadas
-predominantemente em ônibus fretado, com destinos no Brasil e saídas, em regra,
-de São José dos Campos e região.
+predominantemente em ônibus fretado, com destinos no Brasil e, em alguns
+roteiros, em países vizinhos alcançáveis por estrada, e saídas, em regra, de
+São José dos Campos e região.
 
 As Plataformas têm por finalidade:
 
