@@ -24,9 +24,10 @@ e quais são os seus direitos.
 > IX, da LGPD.
 
 A C&C Turismo organiza excursões e viagens em grupo, realizadas
-predominantemente em ônibus fretado, com destinos no Brasil e, em alguns
-roteiros, em países vizinhos alcançáveis por estrada, e saídas, em regra, de
-São José dos Campos e região. Tratamos seus dados pessoais para:
+predominantemente em ônibus fretado, com **destinos no Brasil** e saídas, em
+regra, de São José dos Campos e região. A hospedagem é sempre em território
+nacional; alguns roteiros de fronteira incluem um passeio de um dia ao país
+vizinho. Tratamos seus dados pessoais para:
 
 - **organizar e executar a viagem contratada** — inscrição, lista de
   passageiros, ponto de embarque, acomodação, alimentação e passeios;
@@ -123,6 +124,10 @@ com:
 - **prestadores de serviços de tecnologia**, como hospedagem em nuvem,
   comunicação e atendimento, que atuam como operadores sob contrato e nossas
   instruções;
+- o **WhatsApp**, quando você opta por falar conosco por esse canal: a
+  conversa e os dados nela informados são processados pela Meta, conforme a
+  política de privacidade do aplicativo, sobre a qual não temos controle. Se
+  preferir não usá-lo, fale com a gente por e-mail;
 - **autoridades públicas e órgãos reguladores**, quando exigido por lei, ordem
   judicial ou requisição legítima.
 
@@ -130,20 +135,25 @@ Não vendemos dados pessoais.
 
 ## 5. Transferência internacional
 
-A maior parte das nossas viagens tem destinos no Brasil, com fornecedores
-nacionais. Há transferência internacional de dados pessoais em duas situações:
+Nossas viagens são nacionais e a hospedagem é sempre no Brasil, com
+fornecedores brasileiros. Ainda assim, pode haver transferência internacional
+de dados pessoais em duas situações:
 
-- **Roteiros no exterior.** Em viagens a países vizinhos, como Ciudad del Este
-  no Paraguai, os dados necessários à sua hospedagem, aos passeios e à
-  travessia de fronteira são compartilhados com fornecedores e autoridades
-  locais. A transferência é necessária à execução do contrato de viagem que
-  você contratou, nos termos do art. 33, inciso II, alínea "b", da LGPD.
+- **Passeios de um dia ao país vizinho.** Nos roteiros de fronteira, como os de
+  Foz do Iguaçu, o grupo atravessa para o lado argentino do parque ou para
+  Ciudad del Este, no Paraguai, retornando ao Brasil no mesmo dia. Nesses
+  casos, os dados estritamente necessários à travessia podem ser apresentados
+  às autoridades de fronteira e ao operador local do passeio. A transferência
+  é necessária à execução do contrato de viagem, nos termos do art. 33, inciso
+  II, alínea "b", da LGPD, e se limita ao que a travessia exige — não há envio
+  de dados de hospedagem ou de pagamento ao exterior.
 - **Provedores de tecnologia** com servidores fora do Brasil, como hospedagem
   em nuvem e ferramentas de comunicação e atendimento, com salvaguardas
-  contratuais adequadas.
+  contratuais adequadas. Inclui-se aqui o **WhatsApp**, caso você escolha esse
+  canal de atendimento.
 
-Se você se inscrever apenas em viagens nacionais, seus dados não são
-transferidos para o exterior em razão do roteiro.
+Se você viajar apenas em roteiros sem travessia, seus dados não são
+transferidos para o exterior em razão do passeio.
 
 ## 6. Por quanto tempo guardamos
 

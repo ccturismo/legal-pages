@@ -1,7 +1,9 @@
 ---
 import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
+import BotaoWhatsApp from '../components/BotaoWhatsApp.astro';
 import { destinos } from '../data/destinos';
+import { MENSAGEM_GERAL } from '../data/contato';
 
 const diferenciais = [
 	{
@@ -17,10 +19,14 @@ const diferenciais = [
 		itens: ['Ônibus fretado', 'Pontos de embarque na região', 'Ida e volta no mesmo grupo'],
 	},
 	{
-		titulo: 'Destinos ao alcance da estrada',
+		titulo: 'Destinos pelo Brasil',
 		texto:
-			'Praias, serras, cidades históricas, santuários e parques pelo Brasil — e Ciudad del Este, no Paraguai.',
-		itens: ['Bate-volta e viagens de vários dias', 'Datas ao longo do ano', 'Grupos de todas as idades'],
+			'Praias, serras, cidades históricas, santuários e parques — com hospedagem sempre no Brasil.',
+		itens: [
+			'Bate-volta e viagens de vários dias',
+			'Alguns roteiros cruzam a fronteira por um dia',
+			'Grupos de todas as idades',
+		],
 	},
 ];
 ---
@@ -38,7 +44,7 @@ const diferenciais = [
 				acompanhando e o seguro dos passageiros já incluso.
 			</p>
 			<div class="acoes">
-				<a class="botao botao-primario" href="#contato">Falar com a gente</a>
+				<BotaoWhatsApp mensagem={MENSAGEM_GERAL} />
 				<a class="botao botao-secundario" href="#destinos">Ver destinos</a>
 			</div>
 		</div>
@@ -81,19 +87,30 @@ const diferenciais = [
 				{
 					destinos.map((d) => (
 						<li class="destino">
-							<Image
-								src={d.imagem}
-								alt={`${d.nome} — ${d.descricao}`}
-								width={640}
-								widths={[320, 640]}
-								sizes="(max-width: 48rem) 90vw, 320px"
-								loading="lazy"
-							/>
-							<div class="destino-texto">
-								<span class="destino-uf">{d.uf}</span>
-								<h3>{d.nome}</h3>
-								<p>{d.descricao}</p>
-							</div>
+							<a href={`/destinos/${d.slug}/`}>
+								{
+									d.imagem ? (
+										<Image
+											src={d.imagem}
+											alt=""
+											width={640}
+											widths={[320, 640]}
+											sizes="(max-width: 48rem) 90vw, 320px"
+											loading="lazy"
+										/>
+									) : (
+										<div class="sem-foto" aria-hidden="true">
+											<span class="arco" />
+										</div>
+									)
+								}
+								<div class="destino-texto">
+									<span class="destino-uf">{d.uf}</span>
+									<h3>{d.nome}</h3>
+									<p>{d.descricao}</p>
+									{d.duracao && <span class="destino-meta">{d.duracao}</span>}
+								</div>
+							</a>
 						</li>
 					))
 				}
@@ -108,6 +125,7 @@ const diferenciais = [
 				Escreva para a gente e retornamos com os próximos roteiros, datas e
 				pontos de embarque.
 			</p>
+			<p class="contato-acao"><BotaoWhatsApp mensagem={MENSAGEM_GERAL} /></p>
 			<ul class="contato-lista">
 				<li>
 					<strong>Atendimento:</strong>

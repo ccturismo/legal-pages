@@ -17,9 +17,10 @@ concorde, não utilize as Plataformas.
 ## 1. Objeto
 
 A C&C Turismo organiza e vende **excursões e viagens em grupo**, realizadas
-predominantemente em ônibus fretado, com destinos no Brasil e, em alguns
-roteiros, em países vizinhos alcançáveis por estrada, e saídas, em regra, de
-São José dos Campos e região.
+predominantemente em ônibus fretado, com **destinos no Brasil** e saídas, em
+regra, de São José dos Campos e região. A hospedagem é sempre em território
+nacional; alguns roteiros de fronteira, como os de Foz do Iguaçu, incluem um
+passeio de um dia ao país vizinho, com retorno ao Brasil no mesmo dia.
 
 As Plataformas têm por finalidade:
 
@@ -98,7 +99,9 @@ Ao contratar uma viagem e utilizar as Plataformas, você se compromete a:
 - informar, quando solicitado, condições de saúde ou necessidades de
   acessibilidade relevantes para a sua segurança durante o trajeto e os
   passeios;
-- portar os documentos exigidos e cumprir os horários do roteiro;
+- portar os documentos exigidos e cumprir os horários do roteiro, inclusive o
+  documento de identificação válido necessário à travessia de fronteira, nos
+  roteiros que a incluem;
 - respeitar as regras de convivência do grupo, as orientações do guia e as
   normas de segurança do transporte;
 - utilizar as Plataformas de forma lícita, sem violar direitos de terceiros, e

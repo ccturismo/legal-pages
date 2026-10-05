@@ -1,0 +1,122 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import BotaoWhatsApp from '../../components/BotaoWhatsApp.astro';
+import { destinos } from '../../data/destinos';
+import { mensagemDestino } from '../../data/contato';
+
+export function getStaticPaths() {
+	return destinos.map((destino) => ({
+		params: { slug: destino.slug },
+		props: { destino },
+	}));
+}
+
+const { destino } = Astro.props;
+
+// A ficha só mostra o que existe — nada de "a consultar" preenchendo buraco.
+const ficha = [
+	destino.duracao && { rotulo: 'Duração', valor: destino.duracao },
+	destino.grupo && { rotulo: 'Grupo', valor: destino.grupo },
+	{ rotulo: 'Transporte', valor: 'Ônibus fretado' },
+	{ rotulo: 'Saída', valor: 'São José dos Campos' },
+].filter(Boolean) as { rotulo: string; valor: string }[];
+
+const descricaoSeo = destino.duracao
+	? `${destino.descricao}. Excursão de ${destino.duracao} em ônibus fretado, com saída de São José dos Campos.`
+	: `${destino.descricao}. Excursão em ônibus fretado, com saída de São José dos Campos.`;
+---
+
+<Base title={`${destino.nome} — Excursão da C&C Turismo`} description={descricaoSeo}>
+	<article class="destino-pagina">
+		<div class="container">
+			<p class="voltar"><a href="/#destinos">&larr; Todos os destinos</a></p>
+
+			<header class="destino-cabecalho">
+				<span class="destino-uf">{destino.uf}</span>
+				<h1>{destino.nome}</h1>
+				<p class="lead">{destino.descricao}</p>
+			</header>
+
+			{
+				destino.imagem ? (
+					<Image
+						class="destino-capa"
+						src={destino.imagem}
+						alt={`${destino.nome} — ${destino.descricao}`}
+						width={960}
+						widths={[480, 960]}
+						sizes="(max-width: 64rem) 92vw, 960px"
+						loading="eager"
+					/>
+				) : (
+					<div class="destino-capa sem-foto" aria-hidden="true">
+						<span class="arco" />
+					</div>
+				)
+			}
+
+			<dl class="ficha">
+				{
+					ficha.map((item) => (
+						<div>
+							<dt>{item.rotulo}</dt>
+							<dd>{item.valor}</dd>
+						</div>
+					))
+				}
+			</dl>
+
+			{
+				destino.travessia && (
+					<aside class="aviso">
+						<h2>Travessia de fronteira</h2>
+						<p>{destino.travessia}</p>
+					</aside>
+				)
+			}
+
+			{
+				destino.destaques && destino.destaques.length > 0 && (
+					<section class="destaques">
+						<h2>O que inclui</h2>
+						<ul>
+							{destino.destaques.map((item) => (
+								<li>{item}</li>
+							))}
+						</ul>
+					</section>
+				)
+			}
+
+			{
+				destino.roteiro && destino.roteiro.length > 0 && (
+					<section class="roteiro">
+						<h2>Roteiro</h2>
+						<ol>
+							{destino.roteiro.map((etapa) => (
+								<li>
+									<span class="etapa-dia">{etapa.dia}</span>
+									<h3>{etapa.titulo}</h3>
+									<p>{etapa.descricao}</p>
+								</li>
+							))}
+						</ol>
+					</section>
+				)
+			}
+
+			<aside class="chamada">
+				<h2>Quer ir nessa viagem?</h2>
+				<p>
+					{
+						destino.roteiro
+							? 'As datas de saída mudam ao longo do ano. Fale com a gente para saber as próximas, os valores e o que está incluso.'
+							: 'Fale com a gente para conhecer o roteiro detalhado, as próximas datas e os valores.'
+					}
+				</p>
+				<BotaoWhatsApp mensagem={mensagemDestino(destino.nome, destino.duracao)} />
+			</aside>
+		</div>
+	</article>
+</Base>
